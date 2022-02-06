@@ -1,0 +1,8 @@
+cmake_minimum_required(VERSION 3.21)
+project(untitled1 C)
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(untitled1 main.c)
+include_directories("/usr/include/SDL2")
+target_link_libraries(untitled1 m SDL2 SDL2_gfx)
